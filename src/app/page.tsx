@@ -1,10 +1,9 @@
-import styles from "./page.module.css";
-import "./Home.scss";
+import "./home.scss";
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}></div>
+    <main className="main">
+      <div className="description"></div>
     </main>
   );
 }

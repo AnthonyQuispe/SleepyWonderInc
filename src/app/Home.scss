@@ -1,0 +1,9 @@
+@use "../Style/partials/mixins" as *;
+@use "../Style/partials/typography" as *;
+@use "../Style/partials/variables" as *;
+@use "../Style/partials/global" as *;
+
+.main {
+  min-height: 100vh;
+  background-color: $Background;
+}
