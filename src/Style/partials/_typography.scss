@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "strasua";
+  src: url("../../../public/fonts/strasua.otf") format("otf"),
+    url("../../../public/fonts/strasua.ttf") format("ttf");
+  font-weight: 400;
+  font-style: regular;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SqaudaOne";
+  src: url("../../../public/fonts/SquadaOne.ttf") format("ttf"),
+    url("https://fonts.gstatic.com/s/squadaone/v12/BCasqZ8XsOrx4mcOk6MtWaAET7c.woff2")
+      format("woff2");
+  font-weight: 400;
+  font-style: Regular;
+  font-display: swap;
+}
