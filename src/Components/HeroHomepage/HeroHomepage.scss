@@ -1,0 +1,70 @@
+@use "../../Style/partials/mixins" as *;
+@use "../../Style/partials/typography" as *;
+@use "../../Style/partials/variables" as *;
+@use "../../Style/partials/global" as *;
+
+.hero {
+  width: 100vw;
+  height: 41vw;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+
+  &-character {
+    width: 30vw;
+    height: 30vw;
+  }
+
+  &-texts__container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 2rem;
+    height: 100%;
+    justify-content: space-evenly;
+  }
+  &-text {
+    color: $White;
+    text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.5);
+    font-size: 2vw;
+    font-family: strasua;
+
+    &__container {
+      background: rgba(44, 44, 87, 0.54);
+    }
+  }
+
+  &-heading {
+    color: $White;
+    text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.5);
+    font-size: 5vw;
+    font-family: Sqauda;
+
+    &__container {
+      background: rgba(44, 44, 87, 0.54);
+    }
+
+    &__alt {
+      color: #c8aaf7;
+    }
+  }
+
+  &-preview {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: none;
+  }
+  &-background {
+    width: 100vw;
+    height: 41vw;
+    border-radius: 10px;
+
+    &--image {
+      width: 100vw;
+      height: 41vw;
+    }
+  }
+}

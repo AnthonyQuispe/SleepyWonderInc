@@ -3,7 +3,9 @@
 @use "../Style/partials/variables" as *;
 @use "../Style/partials/global" as *;
 
-.main {
+.home {
   min-height: 100vh;
   background-color: $Background;
+  display: flex;
+  justify-content: center;
 }
